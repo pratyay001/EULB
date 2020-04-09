@@ -1,0 +1,145 @@
+body{
+  background: hsl(207, 58%, 18%);
+  float: none;
+  
+  
+}
+.container{
+  justify-content: space-between;
+display: flex;
+
+}
+.profileImageContainer{
+  width: 772px;
+height: 800px;
+opacity: 0.9;
+border-radius: 10px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+background-color: #000000;
+margin-top: 50px;
+margin-left: 108px;
+margin-bottom: 50px;
+display: flex;
+  
+}
+.formContainer{
+  width: 660px;
+  height: 850px;
+  background-color: #f4b41a;
+    
+  
+    }
+.profileImageContainer img{
+  opacity: 0.5;
+border-radius: 10px;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+background-color: #000000;
+ 
+}
+.profileImageContainer .caption {
+  width: 659px;
+height: 127px;
+font-family: Lato;
+font-size: 36px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.39;
+letter-spacing: 0.75px;
+color: #ffffff;
+top: 407px;
+bottom: 166px;
+position: absolute;
+left: 55px;
+right: 58px;
+}
+.innerDiv{
+  width: 460px;
+height: 720px;
+border-radius: 10px;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+background-color: #ffffff;
+margin-bottom: 50px;
+margin-top:50px;
+margin-right: 70px;
+text-align: center;
+
+}
+
+.innerDiv {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.5;
+  letter-spacing: normal;
+  color: #131212;
+  text-align: justify;
+  padding-left: 70px;
+    
+  }
+   .FormTitle__Link {
+    float: left;
+  display:flex ;
+  color:#666666;
+  text-align:flex-start;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.16px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  }
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+.FormTitle__Link--Active {
+  color:#0e2536;
+  border-bottom: 3px solid #f4b41a;
+  
+}
+.subheading{
+  color: #133047;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  border-left: 4px solid #f4b41a;
+}
+.resetPassword-formElements input{
+  width: 350px;
+  height: 52px;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+  font-size: 16px;
+
+  
+}
+.innerDiv .submit-Btn{
+  width: 359px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #f4b41a;
+  cursor: pointer;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  color: #133047;
+  text-align: left;
+  font-family: Helvetica;
+
+}
+.resetPassword-formElements{
+  margin-bottom: 0.1px;
+}
+
